@@ -85,11 +85,6 @@ if (resarrlength > 0)
         resultArray[i] = stringArray[indexArray[i]];
     }
     PrintArray(stringArray);
-    for (int i = 0; i < indexArray.Length; i++)
-    {
-        System.Console.Write(indexArray[i] + " ");
-    }
-    System.Console.WriteLine();
     PrintArray(resultArray);
 }
 else
